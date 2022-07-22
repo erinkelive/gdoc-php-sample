@@ -1,7 +1,7 @@
 <?PHP
 include_once __DIR__ . '/vendor/autoload.php';
 
-$appnome = 'Google API PHP';
+$appnome = 'Google Docs API in PHP';
 $title = 'MyDoc-AutoCreated';
 $credfile = 'auth-credentials.json';
 
