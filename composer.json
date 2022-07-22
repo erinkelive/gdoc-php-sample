@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/phpgdocsintg",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "sample",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+      "google/apiclient": "^2.0"
+  }
+}
