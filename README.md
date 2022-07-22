@@ -1,7 +1,7 @@
 # gdoc-php-sample
 Sample of Source Code in PHP to acesses Google Docs API
 
-This is a type os quick reference sample php code to integrate
+This is a type of quick reference sample php code to integrate
 Google Docs API in PHP, product of more than 60 hours grindind
 and testing codes, not 100% right, with many bugs yet. Because of
 the lack of informations (even from google to developers) of how
