@@ -10,8 +10,9 @@ include_once __DIR__ . '/vendor/autoload.php';
 //
 //  Observation: the Google api function guzzlehttp has a "type of bug" if u dont have a https valid certificate ou use only http
 //               without ssl (not https), that google module has a type of certificate check that CAN'T result false.
-//               I'd edited that sources to make this code works in a http without ssl certificate. Other words, u cant run this sample
-//               code in a http server WITHOUT ssl certificate security (only works in https servers)
+//               I'd edited that sources to make this code works in a http without ssl certificate server. In other words, u cant run this sample
+//               code in a http server WITHOUT ssl certificate security enable (only works in https servers or u need to edit the guzzle http client module)
+//
 //  Observation2: sorry my bad english, isn't my primary language. thx again.
 
 $appnome = 'Google Docs API in PHP';
