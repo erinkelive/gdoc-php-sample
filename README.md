@@ -30,4 +30,17 @@ but we request some contribution (code updates or sugestions/critics)
 from you to this free utilization of this code sample.
 
 Thx.
+---------------------
+
+To test this code u need ur auth-credentials.json downloaded from Google Console
+u need to set full URL of response (response URI) of this file in the OAuth Credentials
+again in the Google Console before u save and download it.
+Put it in the same home base folder (its just a test, move it to other more secure and 
+edit the code to set this path correctly)
+use ur compose update command to download de APIs librarys
+so put it all in a https server (remote host) and access the address by ur browser
+good luck
+thx again!
+
+----------------------
 
