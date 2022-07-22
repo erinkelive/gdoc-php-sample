@@ -1,6 +1,19 @@
 <?PHP
 include_once __DIR__ . '/vendor/autoload.php';
 
+// Todo: pageheader function has the sessions procedures (set session), but it's necessary to remove this part of that function
+//       from that function and set that in the MAIN procedure that start above until the main exit placed before de functions librarys
+//       that are placed at the end of this document.
+//
+//  PS: i'd joined all functions needed to make these functions operate in ONE UNIQUE FILE to simplify our lives (developers)
+//      u can separete them in many librarys
+//
+//  Observation: the Google api function guzzlehttp has a "type of bug" if u dont have a https valid certificate ou use only http
+//               without ssl (not https), that google module has a type of certificate check that CAN'T result false.
+//               I'd edited that sources to make this code works in a http without ssl certificate. Other words, u cant run this sample
+//               code in a http server WITHOUT ssl certificate security (only works in https servers)
+//  Observation2: sorry my bad english, isn't my primary language. thx again.
+
 $appnome = 'Google Docs API in PHP';
 $title = 'MyDoc-AutoCreated';
 $credfile = 'auth-credentials.json';
