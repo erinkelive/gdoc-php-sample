@@ -14,6 +14,8 @@ include_once __DIR__ . '/vendor/autoload.php';
 //               code in a http server WITHOUT ssl certificate security enable (only works in https servers or u need to edit the guzzle http client module)
 //
 //  Observation2: sorry my bad english, isn't my primary language. thx again.
+//
+//  Observation3: many comments,texts and buttons are in Brazilian Portuguese, not translated, sorry again!
 
 $appnome = 'Google Docs API in PHP';
 $title = 'MyDoc-AutoCreated';
