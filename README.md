@@ -1,6 +1,13 @@
 # gdoc-php-sample
 Sample of Source Code in PHP to acesses Google Docs API
 
+## Version 2 example
+
+The `v2/` directory contains an improved script (`index.php`) showing a
+cleaner approach using a small helper class (`DocsManager`). It demonstrates
+how to create or open a document and insert formatted text. The original file
+`index-github.php` remains unchanged.
+
 This is a type of quick reference sample php code to integrate
 Google Docs API in PHP, product of more than 60 hours grindind
 and testing codes, not 100% right, with many bugs yet. Because of

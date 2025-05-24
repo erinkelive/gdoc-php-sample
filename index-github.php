@@ -25,21 +25,21 @@ $credfile = 'auth-credentials.json';
 $result2 = [];
 
 //recebe/inicia os vars do html para configurar o texto a ser inserido no documento
-$texto= $_POST['texto'];
-$bold=$_POST['bold'];
-$underline=$_POST['underline'];
-$alignment=$_POST['alignment'];
-$italic=$_POST['italic'];
-$bkred= (number_format((float)$_POST['bkred'], 1, '.', '')/10);
-$bkgreen= (number_format((float)$_POST['bkgreen'], 1, '.', '')/10);
-$bkblue= (number_format((float)$_POST['bkblue'], 1, '.', '')/10);
-$fgred= (number_format((float)$_POST['fgred'], 1, '.', '')/10);
-$fggreen= (number_format((float)$_POST['fggrern'], 1, '.', '')/10);
-$fgblue= (number_format((float)$_POST['fgblue'], 1, '.', '')/10);
-$fontsize=$_POST['fontsize'];
-$fontfamily= $_POST['fontfamily'];
-$criaarquivo=$_POST['criaarquivo'];
-$idarquivo=$_POST['idarquivo'];
+$texto      = $_POST['texto']      ?? '';
+$bold       = $_POST['bold']       ?? '';
+$underline  = $_POST['underline']  ?? '';
+$alignment  = $_POST['alignment']  ?? '';
+$italic     = $_POST['italic']     ?? '';
+$bkred      = number_format((float)($_POST['bkred'] ?? 0), 1, '.', '') / 10;
+$bkgreen    = number_format((float)($_POST['bkgreen'] ?? 0), 1, '.', '') / 10;
+$bkblue     = number_format((float)($_POST['bkblue'] ?? 0), 1, '.', '') / 10;
+$fgred      = number_format((float)($_POST['fgred'] ?? 0), 1, '.', '') / 10;
+$fggreen    = number_format((float)($_POST['fggreen'] ?? 0), 1, '.', '') / 10;
+$fgblue     = number_format((float)($_POST['fgblue'] ?? 0), 1, '.', '') / 10;
+$fontsize   = $_POST['fontsize']   ?? '';
+$fontfamily = $_POST['fontfamily'] ?? '';
+$criaarquivo= $_POST['criaarquivo']?? '';
+$idarquivo  = $_POST['idarquivo']  ?? '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     print_r($_POST);
