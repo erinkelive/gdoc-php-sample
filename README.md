@@ -41,7 +41,7 @@ sample of what i'm talking about: "...     $file = __DIR__ . '/../../tests/.apiK
 or else, you WILL need to check the code, some parts of the code (a fow only, calm down)
 like that i'd mentioned above you need to set manually, and, that file .apiKey is exactly
 what was there, you GOOOGLE API KEY, in text mode, saved in a folder, that was TWO LEVELS 
-under that level of folders and files that are published in web, or ele, outside the internet 
+under that level of folders and files that are published in web, or else, outside the internet 
 server initial folder published, only informing because i'd forgot to specify that thing.
 
 
