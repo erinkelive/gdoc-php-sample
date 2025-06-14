@@ -36,6 +36,16 @@ Your can use pieces or full code for free,
 but we request some contribution (code updates or sugestions/critics) 
 from you to this free utilization of this code sample.
 
+YOU SURE HAVE TO DO SOME MANUAL WORK IN THIS CODE, i hope you know how to do it!
+sample of what i'm talking about: "...     $file = __DIR__ . '/../../tests/.apiKey'; ...".
+or else, you WILL need to check the code, some parts of the code (a fow only, calm down)
+like that i'd mentioned above you need to set manually, and, that file .apiKey is exactly
+what was there, you GOOOGLE API KEY, in text mode, saved in a folder, that was TWO LEVELS 
+beyond that level of folders that is published in web, or ele, outside the internet server
+initial folder published, only informing because i'd forgot to specify that thing.
+
+
+
 Thx.
 ---------------------
 
